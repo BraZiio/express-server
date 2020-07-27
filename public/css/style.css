@@ -1,0 +1,44 @@
+h1 {
+    color: white;
+    text-align: center;
+}
+.navcustom {
+    margin-bottom: 30px;
+    border-bottom: 1px solid white;
+}
+.footer {
+    position: relative;
+    bottom: 0;
+    height: 200px;
+    border-top: 1px solid white;
+}
+
+.container-custom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-posts {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    width: 45%;
+    padding: 35px;
+}
+.title-posts {
+    color: white;
+    margin: 20px 0;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: x-large;
+    border-bottom: 1px solid white;
+}
+.body-posts {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}

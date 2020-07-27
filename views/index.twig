@@ -1,0 +1,15 @@
+{% extends "base.twig" %}
+{% block body %}
+    <div class="container-accueil">
+        <h1>{{title}}</h1>
+        <div>
+            {% for post in posts %}
+            <div class="container-posts">
+                <div class="title-posts">{{post.title}}</div>
+                <div class="body-posts">{{post.body}}</div>
+                <a href="/blog/{{post.id}}" class="btn btn-light">En savoir plus</a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}
